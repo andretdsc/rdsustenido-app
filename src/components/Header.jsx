@@ -14,7 +14,7 @@ const Header = () => {
         <Link to="/quem-somos" className="hover:text-accent transition-colors">QUEM SOMOS</Link>
         <Link to="/supermercados" className="hover:text-accent transition-colors">SUPERMERCADOS</Link>
         <Link to="/farmacias" className="hover:text-accent transition-colors">FARMÁCIAS</Link>
-        <a href="#contato" className="hover:text-accent transition-colors">CONTATO</a>
+        <Link to="/contato" className="hover:text-accent transition-colors">CONTATO</Link>
         
         <div className="flex items-center gap-4 ml-4">
           <a href="#" className="hover:text-gray-300">IG</a>

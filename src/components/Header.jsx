@@ -11,7 +11,7 @@ const Header = () => {
       
       <nav className="space-x-8 text-xs tracking-widest font-bold hidden md:flex items-center uppercase text-white">
         <Link to="/" className="hover:text-accent transition-colors">HOME</Link>
-        <Link to="/quem-somos" className="hover:text-accent transition-colors">QUEM SOMOS</Link>
+        <Link to="/quem-faz" className="hover:text-accent transition-colors">QUEM FAZ</Link>
         <Link to="/supermercados" className="hover:text-accent transition-colors">SUPERMERCADOS</Link>
         <Link to="/farmacias" className="hover:text-accent transition-colors">FARMÁCIAS</Link>
         <Link to="/contato" className="hover:text-accent transition-colors">CONTATO</Link>

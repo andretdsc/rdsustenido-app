@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import Supermercados from './pages/Supermercados'
 import Farmacias from './pages/Farmacias'
-import QuemSomos from './pages/QuemSomos'
+import QuemFaz from './pages/QuemFaz'
 import Contato from './pages/Contato'
 
 import bckg from './assets/original/sustenido_audio_branding_bckg.jpg'
@@ -30,7 +30,7 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/quem-somos" element={<QuemSomos />} />
+            <Route path="/quem-faz" element={<QuemFaz />} />
             <Route path="/supermercados" element={<Supermercados />} />
             <Route path="/farmacias" element={<Farmacias />} />
             <Route path="/contato" element={<Contato />} />

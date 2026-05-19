@@ -33,7 +33,7 @@ const Home = () => {
         </div>
 
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 max-w-5xl drop-shadow-lg leading-tight">
-          Muito além da <br /> música ambiente.
+          Transforme anúncios internos em <br /> vendedores invisíveis na sua loja.
         </h2>
         <p className="text-lg md:text-xl text-gray-200 max-w-3xl mb-12 drop-shadow-md">
           A única solução de Retail Audio que transmite a programação e cria ofertas ágeis para girar o seu estoque em tempo real.
@@ -77,9 +77,9 @@ const Home = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {[
-            { step: '01', title: 'Estratégia', desc: 'Sua equipe define os produtos alvo, margens e ofertas relâmpago do dia.' },
-            { step: '02', title: 'Produção Ágil', desc: 'Nossa agência cria o roteiro e grava com locutores premium em horas.' },
-            { step: '03', title: 'Transmissão', desc: 'O Software Sustenido garante a reprodução contínua e sem quedas na sua loja.' },
+            { step: '01', title: 'Estratégia', desc: 'Sua equipe define os produtos-alvo, margens e ofertas com programação detalhada.' },
+            { step: '02', title: 'Produção Ágil', desc: 'Nossa agência cria o roteiro e produz com vozes marcantes e com a agilidade que o seu comércio exige.' },
+            { step: '03', title: 'Transmissão', desc: 'A Rádio Sustenido garante a reprodução contínua e sem interrupções na sua loja.' },
             { step: '04', title: 'Sell-out', desc: 'O produto ganha destaque sensorial e acelera a saída do estoque.' }
           ].map((item, idx) => (
             <motion.div 
@@ -112,14 +112,14 @@ const Home = () => {
       >
         <div className="text-center mb-16">
           <h3 className="text-xs tracking-[0.3em] text-accent uppercase mb-4 font-bold">Por que a Sustenido?</h3>
-          <h2 className="text-3xl md:text-4xl font-light">O verdadeiro premium é a <strong className="font-bold">velocidade e conversão</strong></h2>
+          <h2 className="text-3xl md:text-4xl font-light">O verdadeiro áudio branding é a <strong className="font-bold">velocidade e a conversão</strong></h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             { title: 'Spots Vendedores', desc: 'Foco total em gatilhos de urgência e venda, não apenas "música legal".' },
-            { title: 'Velocidade de Produção', desc: 'Roteiros aprovados pela manhã, spots gravados e no ar na sua loja à tarde.' },
-            { title: 'Locução Premium', desc: 'Vozes reconhecidas do rádio gaúcho e nacional para dar máxima credibilidade.' },
+            { title: 'Velocidade de Produção', desc: 'Roteiros aprovados, spots gravados e rapidamente adicionados à sua rádio.' },
+            { title: 'Locução Premium', desc: 'Vozes reais reconhecidas do rádio, no tom exato para gerar máxima credibilidade.' },
             { title: 'Integração Comercial', desc: 'Trabalhamos lado a lado com seu time de compras para acelerar quem paga a conta.' },
             { title: 'Campanhas Diárias', desc: 'Flexibilidade para trocar a comunicação todos os dias conforme seu estoque exige.' },
             { title: 'Influência Comportamental', desc: 'Áudio estrategicamente mixado para direcionar o cliente pela loja e gerar compra por impulso.' }

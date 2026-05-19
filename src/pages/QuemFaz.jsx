@@ -12,14 +12,15 @@ const QuemFaz = () => {
 
       {/* Imagem de Fundo Mesclada */}
       <div className="absolute inset-0 w-full h-[70vh] md:h-full z-0 overflow-hidden pointer-events-none">
-        {/* Gradientes para mesclar a imagem de forma suave ao azul marinho */}
-        <div className="absolute inset-0 bg-gradient-to-b from-dark/20 via-dark/80 to-dark z-10"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-dark via-dark/50 to-transparent z-10 md:w-2/3"></div>
+        {/* Camadas escuras sólidas em vez de mix-blend para máxima compatibilidade cruzada */}
+        <div className="absolute inset-0 bg-dark/60 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-dark/70 to-dark z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-dark via-dark/80 to-transparent z-10 md:w-2/3"></div>
         
         <img 
           src={quemFazImg} 
           alt="Guilherme Annes e Rafinha Spada" 
-          className="w-full h-full object-cover object-[center_20%] opacity-40 mix-blend-luminosity"
+          className="w-full h-full object-cover object-[center_20%] opacity-30 grayscale"
         />
       </div>
       

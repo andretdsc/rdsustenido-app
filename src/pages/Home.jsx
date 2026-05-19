@@ -33,10 +33,10 @@ const Home = () => {
         </div>
 
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 max-w-5xl drop-shadow-lg leading-tight">
-          Transforme anúncios internos em <br /> vendedores invisíveis na sua loja.
+          Muito além da <br /> música ambiente.
         </h2>
         <p className="text-lg md:text-xl text-gray-200 max-w-3xl mb-12 drop-shadow-md">
-          Criamos campanhas sonoras promocionais para supermercados, magazines e farmácias com spots rápidos e locução premium.
+          A única solução de Retail Audio que transmite a programação e cria ofertas ágeis para girar o seu estoque em tempo real.
         </p>
         
         <div className="flex flex-col md:flex-row gap-6">
@@ -77,9 +77,9 @@ const Home = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {[
-            { step: '01', title: 'Comercial', desc: 'Sua equipe define os produtos foco, margens e ofertas relâmpago.' },
-            { step: '02', title: 'Roteiro e Voz', desc: 'Criamos o roteiro estratégico e gravamos com locutores premium em horas.' },
-            { step: '03', title: 'No Ar', desc: 'A campanha promocional entra no ar na sua loja de forma rápida e assertiva.' },
+            { step: '01', title: 'Estratégia', desc: 'Sua equipe define os produtos alvo, margens e ofertas relâmpago do dia.' },
+            { step: '02', title: 'Produção Ágil', desc: 'Nossa agência cria o roteiro e grava com locutores premium em horas.' },
+            { step: '03', title: 'Transmissão', desc: 'O Software Sustenido garante a reprodução contínua e sem quedas na sua loja.' },
             { step: '04', title: 'Sell-out', desc: 'O produto ganha destaque sensorial e acelera a saída do estoque.' }
           ].map((item, idx) => (
             <motion.div 

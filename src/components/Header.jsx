@@ -9,11 +9,13 @@ const Header = () => {
         <Link to="/"><img src={logo} alt="Sustenido Logo" className="h-10 hover:opacity-80 transition-opacity" /></Link>
       </div>
       
-      <nav className="space-x-8 text-xs tracking-widest font-bold hidden md:flex items-center uppercase text-white">
+      <nav className="space-x-6 text-xs tracking-widest font-bold hidden md:flex items-center uppercase text-white">
         <Link to="/" className="hover:text-accent transition-colors">HOME</Link>
         <Link to="/quem-faz" className="hover:text-accent transition-colors">QUEM FAZ</Link>
         <Link to="/supermercados" className="hover:text-accent transition-colors">SUPERMERCADOS</Link>
         <Link to="/farmacias" className="hover:text-accent transition-colors">FARMÁCIAS</Link>
+        <Link to="/audio-branding" className="hover:text-accent transition-colors">ÁUDIO BRANDING</Link>
+        <Link to="/radio-institucional" className="hover:text-accent transition-colors">RÁDIO INSTITUCIONAL</Link>
         <Link to="/contato" className="hover:text-accent transition-colors">CONTATO</Link>
         
         <div className="flex items-center gap-4 ml-4">

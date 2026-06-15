@@ -8,6 +8,8 @@ import Home from './pages/Home'
 import Supermercados from './pages/Supermercados'
 import Farmacias from './pages/Farmacias'
 import QuemFaz from './pages/QuemFaz'
+import AudioBranding from './pages/AudioBranding'
+import RadioInstitucional from './pages/RadioInstitucional'
 import Contato from './pages/Contato'
 
 import bckg from './assets/original/sustenido_audio_branding_bckg.jpg'
@@ -33,6 +35,8 @@ function App() {
             <Route path="/quem-faz" element={<QuemFaz />} />
             <Route path="/supermercados" element={<Supermercados />} />
             <Route path="/farmacias" element={<Farmacias />} />
+            <Route path="/audio-branding" element={<AudioBranding />} />
+            <Route path="/radio-institucional" element={<RadioInstitucional />} />
             <Route path="/contato" element={<Contato />} />
           </Routes>
         </Layout>
